@@ -1,0 +1,14 @@
+server:
+  port: 9902
+spring:
+  application:
+    name: provider-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1234
+    url: jdbc:mysql://127.0.0.1/Mybatis?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
