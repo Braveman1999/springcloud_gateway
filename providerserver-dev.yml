@@ -12,4 +12,5 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-test: pengpeng
+test: 
+  hello: pengpeng
